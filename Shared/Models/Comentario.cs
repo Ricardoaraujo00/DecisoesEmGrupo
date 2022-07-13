@@ -15,7 +15,12 @@ namespace DecisoesEmGrupo.Shared.Models
         public int Id { get; set; }
         public int PropostaId { get; set; } = 0;
         public int UserId { get; set; } = 0;
-        public string Comentario { get; set; } = "";
+        public string TextoComentario { get; set; } = "";
         public DateTime DataComentario { get; set; } = DateTime.Now;
+        
+        public Proposta? Proposta { get; set; }
+
+        [NotMapped]
+        public int Gostos { get; set; }
     }
 }

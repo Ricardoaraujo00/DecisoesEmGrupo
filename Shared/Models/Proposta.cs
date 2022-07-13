@@ -19,5 +19,9 @@ namespace DecisoesEmGrupo.Shared.Models
         public bool Aceite { get; set; } = false;
         public DateTime DataFecho { get; set; } = DateTime.Now;
         public bool Concluida { get; set; } = false;
+
+        [NotMapped]
+        public bool ShowComentarios { get; set; } = false;
+        public HashSet<Comentario>? Comentarios { get; set; }
     }
 }
