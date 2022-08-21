@@ -1,0 +1,6 @@
+dbdecisoesemgrupo
+
+dbdecisoesemgrupouser
+rffa5049?#
+
+"Server=94.46.168.141,1433;Database=dbdecisoesemgrupo;user id=dbdecisoesemgrupouser;Password=rffa5049?#"

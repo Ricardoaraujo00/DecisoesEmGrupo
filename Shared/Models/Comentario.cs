@@ -13,7 +13,7 @@ namespace DecisoesEmGrupo.Shared.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public int PropostaId { get; set; } = 0;
+        public int Prop { get; set; } = 0;
         public int UserId { get; set; } = 0;
         public string TextoComentario { get; set; } = "";
         public DateTime DataComentario { get; set; } = DateTime.Now;

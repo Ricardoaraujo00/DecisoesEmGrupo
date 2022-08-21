@@ -15,7 +15,7 @@ namespace DecisoesEmGrupo.Shared.Models
         public int Id { get; set; }
         public int ComentarioId { get; set; } = 0;
         public int UserId { get; set; } = 0;
-        public bool Gosto { get; set; } = 0;
+        public bool Gosto { get; set; } = false;
         public byte Concordancia { get; set; } = 0;
         public DateTime DataComentario { get; set; } = DateTime.Now;
     }
